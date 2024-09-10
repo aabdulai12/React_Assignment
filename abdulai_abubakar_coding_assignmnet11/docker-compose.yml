@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  react-app:
+    build: .
+    ports:
+      - "7775:7775"
+    environment:
+      - NODE_ENV=production
+    container_name: abdulai_abubakar_coding_assignmet11
+    working_dir: /abdulai_abubakar_coding_assignmet11
